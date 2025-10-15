@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Comfe - Contact</title>
+
+    <style>
+
+@font-face {
+    font-family: lemon;
+    src: url("Howdy Lemon.otf");
+}
+@font-face {
+    font-family: cake;
+    src: url("Simple Cake.otf");
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgb(184, 69, 100);}
+
+h1{
+    color: rgb(116, 6, 52); font-family: lemon;}
+h3 {
+    color: rgb(116, 6, 52); font-family: cake;}
+label{
+    color: rgb(116, 6, 52);}
+p{
+    color: rgb(116, 6, 52);} 
+a{
+    color: rgb(116, 6, 52);}
+
+ #heading1 {
+    background-color: rgb(156, 68, 83);
+    color: rgb(255, 209, 220);           }
+
+.menu-card {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.comment-form {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: rgb(200, 90, 120);
+    border-color: rgb(116, 6, 52);
+}
+
+.btn-primary:hover {
+    background-color: rgb(200, 90, 120);
+    border-color: rgb(116, 6, 52);}
+
+
+</style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-coffee me-2"></i>Comfe</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ordering_form.html">Order Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <h1 class="mb-4 text-center mt-5">˖˚₊~ Contact Us ~₊˚˖</h1>
+
+    <div class="menu-card">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th id="heading1" colspan="2">Contact Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><Strong> Name & Street</Strong></td>
+                <td>Comfy Cafe, Las Pinas</td>
+            </tr>
+            <tr>
+                <td><Strong>Phone Number</Strong></td>
+                <td>+63 1111 111 111</td>
+            </tr>
+            <tr>
+                <td><Strong>Email</Strong></td>
+                <td>comfe_cafe@gmail.com</td>
+            </tr>
+            <tr>
+                <td><Strong>Opening Hours</Strong></td>
+                <td>Mon–Sat: 11 AM – 10 PM</td>
+            </tr>
+            <tr>
+                <td><strong>Social Media Pages</strong></td>
+                <td>@comfe_cafe</td>
+            </tr>
+</tbody>
+</table>
+</div>
+
+<div class="comment-form mt-5">
+    <h3 style="padding-left: 20px;">Add a Comment or Review Here!</h3>
+
+<form>
+    <div class="mb-2">
+        <textarea class="form-control" rows="3" id="message" placeholder="Comment or Review Here"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send Message</button>
+
+    </button>
+
+</div>
+
+</form>
+
+
+    
+</body>
+</html>
